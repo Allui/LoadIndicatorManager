@@ -15,7 +15,7 @@ github "Allui/LoadIndicatorManager" == 1.0.0
 ---
 ### Usage
 ```swift
-{
+
     import LoadingKit
     ...
     // Configure manager with your awesome loading-indicator that implements "Loader" protocol
@@ -27,7 +27,7 @@ github "Allui/LoadIndicatorManager" == 1.0.0
     // Call "dispose" of saved "activity" to hide indicator
     // While "activity" is alive indicator isn't going to disappear.
     activity.dispose()
-}
+
 ```
 ---
 
